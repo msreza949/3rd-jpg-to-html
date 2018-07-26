@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+}
+body{
+	background-color: white;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;	
+}
+.top {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #000;
+	display: block;
+	padding: 0px 0 5% 0;
+	margin-top: 5%;
+}
+
+.top .carrier {
+	float: left;
+	width: 33.3%;
+	height: 33px;
+	display: block;
+	margin: 10px 0 0 5px;
+}
+.top .middle {
+	float: left;
+	display: block;
+	margin: 10px 0 0 15%;
+}
+.top .battary{
+	float: right;
+	margin: 10px 5px 0 0;
+}
+.main-body{
+	width: 50%;
+	margin: 0 auto;
+	background: url('../img/bg/2.png') repeat;
+	background-size: cover;
+	margin-bottom: 5%;
+
+}
+.main-body .logo {
+	width: 230px;
+	height: 80px;
+	display: block;
+	margin: 0 auto;
+	padding: 80px 0 50px 0;
+}
+.main-body .login-form {
+	width: 90%;
+	margin: 0 auto;
+	padding: 5%;
+}
+.login-form form {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+.login-form form .form-control {
+	width: 100%;
+	padding: 10px 0 10px 0;
+	border: 3px solid #26262f;
+	background: #1f1f23;
+	border-radius: 5px;
+	text-indent: 40px;
+	margin-top: 25px;
+	color: #e9e3e3;
+	font-size: 17px;
+}
+.login-form form .icon {
+	position: absolute;
+	margin-top: 43px;
+	margin-left: 15px;
+	width: 15px;
+	height: 15px;
+}
+.login-form form .btn1 {
+	width: 170px;
+	padding: 25px 0 0 0;
+}
+.login-form form .btn2 {
+	width: 170px;
+	float: right;
+	display: block;
+	padding: 25px 0 0 0;
+	margin: -66px 0 0 0;
+}
+.login-form form p {
+	text-align: center;
+	font-size: 22px;
+	display: block;
+	color: #fff;
+	margin-top: -48px;
+}
+.image-border {
+	background: url('../img/bg/border.png') repeat;
+	height: 10px;
+}
+
+.bottom {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #637CA4;
+	padding: 5%;
+	border-top: 5px solid #46494C;
+}
+.bottom a{
+	text-decoration: none;
+}
+.bottom img {
+	margin-left: 75px;
+	position: absolute;
+}
+.bottom p {
+	position: relative;
+	top: 5px;
+	left: 135px;
+	font-size: 28px;
+	font-weight: 700;
+	color: #cfcccc;
+}
